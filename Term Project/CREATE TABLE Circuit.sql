@@ -1,0 +1,85 @@
+CREATE TABLE Circuit 
+(
+    Circuit_id	INT,
+    Circuit_name	VARCHAR(512),
+    Location	VARCHAR(512),
+    Country	VARCHAR(512)
+);
+
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('1', 'Albert Park Grand Prix Circuit', 'Melbourne', 'Australia');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('2', 'Sepang International Circuit', 'Kuala Lumpur', 'Malaysia');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('3', 'Bahrain International Circuit', 'Sakhir', 'Bahrain');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('4', 'Circuit de Barcelona-Catalunya', 'Montmeló', 'Spain');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('5', 'Istanbul Park', 'Istanbul', 'Turkey');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('6', 'Circuit de Monaco', 'Monte-Carlo', 'Monaco');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('7', 'Circuit Gilles Villeneuve', 'Montreal', 'Canada');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('8', 'Circuit de Nevers Magny-Cours', 'Magny Cours', 'France');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('9', 'Silverstone Circuit', 'Silverstone', 'UK');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('10', 'Hockenheimring', 'Hockenheim', 'Germany');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('11', 'Hungaroring', 'Budapest', 'Hungary');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('12', 'Valencia Street Circuit', 'Valencia', 'Spain');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('13', 'Circuit de Spa-Francorchamps', 'Spa', 'Belgium');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('14', 'Autodromo Nazionale di Monza', 'Monza', 'Italy');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('15', 'Marina Bay Street Circuit', 'Marina Bay', 'Singapore');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('16', 'Fuji Speedway', 'Oyama', 'Japan');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('17', 'Shanghai International Circuit', 'Shanghai', 'China');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('18', 'Autódromo José Carlos Pace', 'São Paulo', 'Brazil');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('19', 'Indianapolis Motor Speedway', 'Indianapolis', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('20', 'Nürburgring', 'Nürburg', 'Germany');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('21', 'Autodromo Enzo e Dino Ferrari', 'Imola', 'Italy');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('22', 'Suzuka Circuit', 'Suzuka', 'Japan');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('80', 'Las Vegas Strip Street Circuit', 'Las Vegas', 'United States');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('24', 'Yas Marina Circuit', 'Abu Dhabi', 'UAE');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('25', 'Autódromo Juan y Oscar Gálvez', 'Buenos Aires', 'Argentina');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('26', 'Circuito de Jerez', 'Jerez de la Frontera', 'Spain');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('27', 'Autódromo do Estoril', 'Estoril', 'Portugal');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('28', 'Okayama International Circuit', 'Okayama', 'Japan');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('29', 'Adelaide Street Circuit', 'Adelaide', 'Australia');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('30', 'Kyalami', 'Midrand', 'South Africa');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('31', 'Donington Park', 'Castle Donington', 'UK');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('32', 'Autódromo Hermanos Rodríguez', 'Mexico City', 'Mexico');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('33', 'Phoenix street circuit', 'Phoenix', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('34', 'Circuit Paul Ricard', 'Le Castellet', 'France');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('35', 'Korean International Circuit', 'Yeongam County', 'Korea');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('36', 'Autódromo Internacional Nelson Piquet', 'Rio de Janeiro', 'Brazil');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('37', 'Detroit Street Circuit', 'Detroit', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('38', 'Brands Hatch', 'Kent', 'UK');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('39', 'Circuit Park Zandvoort', 'Zandvoort', 'Netherlands');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('40', 'Zolder', 'Heusden-Zolder', 'Belgium');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('41', 'Dijon-Prenois', 'Dijon', 'France');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('42', 'Fair Park', 'Dallas', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('43', 'Long Beach', 'California', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('44', 'Las Vegas Street Circuit', 'Nevada', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('45', 'Jarama', 'Madrid', 'Spain');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('46', 'Watkins Glen', 'New York State', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('47', 'Scandinavian Raceway', 'Anderstorp', 'Sweden');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('48', 'Mosport International Raceway', 'Ontario', 'Canada');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('49', 'Montjuïc', 'Barcelona', 'Spain');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('50', 'Nivelles-Baulers', 'Brussels', 'Belgium');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('51', 'Charade Circuit', 'Clermont-Ferrand', 'France');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('52', 'Circuit Mont-Tremblant', 'Quebec', 'Canada');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('53', 'Rouen-Les-Essarts', 'Rouen', 'France');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('54', 'Le Mans', 'Le Mans', 'France');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('55', 'Reims-Gueux', 'Reims', 'France');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('56', 'Prince George Circuit', 'Eastern Cape Province', 'South Africa');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('57', 'Zeltweg', 'Styria', 'Austria');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('58', 'Aintree', 'Liverpool', 'UK');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('59', 'Circuito da Boavista', 'Oporto', 'Portugal');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('60', 'Riverside International Raceway', 'California', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('61', 'AVUS', 'Berlin', 'Germany');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('62', 'Monsanto Park Circuit', 'Lisbon', 'Portugal');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('63', 'Sebring International Raceway', 'Florida', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('64', 'Ain Diab', 'Casablanca', 'Morocco');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('65', 'Pescara Circuit', 'Pescara', 'Italy');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('66', 'Circuit Bremgarten', 'Bern', 'Switzerland');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('67', 'Circuit de Pedralbes', 'Barcelona', 'Spain');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('68', 'Buddh International Circuit', 'Uttar Pradesh', 'India');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('69', 'Circuit of the Americas', 'Austin', 'USA');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('70', 'Red Bull Ring', 'Spielberg', 'Austria');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('71', 'Sochi Autodrom', 'Sochi', 'Russia');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('73', 'Baku City Circuit', 'Baku', 'Azerbaijan');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('75', 'Autódromo Internacional do Algarve', 'Portimão', 'Portugal');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('76', 'Autodromo Internazionale del Mugello', 'Mugello', 'Italy');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('77', 'Jeddah Corniche Circuit', 'Jeddah', 'Saudi Arabia');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('78', 'Losail International Circuit', 'Al Daayen', 'Qatar');
+INSERT INTO Circuit (Circuit_id, Circuit_name, Location, Country) VALUES ('79', 'Miami International Autodrome', 'Miami', 'USA');
